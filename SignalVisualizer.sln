@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalVisualizer", "SignalVisualizer\SignalVisualizer.csproj", "{3CF92240-7B10-4A93-AE0D-D0AEFC933194}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70308B51-ADC0-49A2-BA64-860C4E316F8C} = {70308B51-ADC0-49A2-BA64-860C4E316F8C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalVisualizer.DefaultExtensions", "SignalVisualizer.DefaultExtensions\SignalVisualizer.DefaultExtensions.csproj", "{70308B51-ADC0-49A2-BA64-860C4E316F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseDataSourceExtension", "MouseDataSourceExtension\MouseDataSourceExtension.csproj", "{5083AC8E-556B-4477-8A3A-8B53673C0207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalVisualizer.Contracts", "SignalVisualizer.Contracts\SignalVisualizer.Contracts.csproj", "{5C3C2E64-5E96-45D2-B58C-E46692699AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpuDataSourceExtension", "CpuDataSourceExtension\CpuDataSourceExtension.csproj", "{0C589A68-BA92-4334-A711-E2F9E1025817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourierDataSourceExtension", "FourierDataSourceExtension\FourierDataSourceExtension.csproj", "{21EDA73C-354D-450F-99EB-F28EB5986DF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CF92240-7B10-4A93-AE0D-D0AEFC933194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF92240-7B10-4A93-AE0D-D0AEFC933194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF92240-7B10-4A93-AE0D-D0AEFC933194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF92240-7B10-4A93-AE0D-D0AEFC933194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70308B51-ADC0-49A2-BA64-860C4E316F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70308B51-ADC0-49A2-BA64-860C4E316F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70308B51-ADC0-49A2-BA64-860C4E316F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70308B51-ADC0-49A2-BA64-860C4E316F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5083AC8E-556B-4477-8A3A-8B53673C0207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5083AC8E-556B-4477-8A3A-8B53673C0207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5083AC8E-556B-4477-8A3A-8B53673C0207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5083AC8E-556B-4477-8A3A-8B53673C0207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3C2E64-5E96-45D2-B58C-E46692699AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3C2E64-5E96-45D2-B58C-E46692699AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3C2E64-5E96-45D2-B58C-E46692699AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3C2E64-5E96-45D2-B58C-E46692699AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C589A68-BA92-4334-A711-E2F9E1025817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C589A68-BA92-4334-A711-E2F9E1025817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C589A68-BA92-4334-A711-E2F9E1025817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C589A68-BA92-4334-A711-E2F9E1025817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21EDA73C-354D-450F-99EB-F28EB5986DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EDA73C-354D-450F-99EB-F28EB5986DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EDA73C-354D-450F-99EB-F28EB5986DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EDA73C-354D-450F-99EB-F28EB5986DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {043D6C85-E26E-476E-ADBE-DC8752A2BD05}
+	EndGlobalSection
+EndGlobal
